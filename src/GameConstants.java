@@ -8,10 +8,10 @@ public final class GameConstants {
 	public final static int mediumQuestionsPoints=7;
 	public final static int hardQuestionsPoints=15;
 	public final static int hardQuestionsNotFullPoints=5;
-	
+
 	public final static int smallMatrixSize=8;
 	public final static int largeMatrixSize=12;
-	
+
 	public final static char easyQuestionsSymbol='*';
 	public final static char mediumQuestionsSymbol='+';
 	public final static char hardQuestionsSymbol='8';

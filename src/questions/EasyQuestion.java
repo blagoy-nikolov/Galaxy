@@ -6,14 +6,14 @@ public final class EasyQuestion extends AbstractQuestion {
 		super(question);
 		this.answer=answer;
 	}
-		public final boolean isTrue(char answer)
-		{
-			return this.answer==Character.toUpperCase(answer);
-		}
-	
-	
-	
-	
-	private char answer;
+	public final boolean isTrue(char answer)
+	{
+		return this.answer==Character.toUpperCase(answer);
 	}
+
+
+
+
+	private char answer;
+}
 

@@ -8,8 +8,8 @@
 
 
 public final class Galaxy {
-  
-	
+
+
 	/**
 	 * Creates the matrix and initialize with dots.
 	 * */
@@ -21,13 +21,13 @@ public final class Galaxy {
 				this.matrix[i][j]='.';
 			}
 		}
-		
+
 	}
 	public final char[][] getMatrix()
 	{
 		return this.matrix;
 	}
-	
+
 	/**
 	 * Puts stars on random positions.
 	 * */
@@ -48,13 +48,13 @@ public final class Galaxy {
 				this.matrix[i][Global.rand.nextInt(matrixSize)] = GameConstants.hardQuestionsSymbol;
 			}
 		}
-		
-		
-		
-		
-		
+
+
+
+
+
 	}
-	
+
 	/**
 	 * Puts the players' indexes on the corners.
 	 * */
@@ -80,12 +80,12 @@ public final class Galaxy {
 	{
 		for (int i = 0; i < matrixSize; i++) {
 			for (int j = 0; j < matrixSize; j++) {
-			 if(this.matrix[i][j]==GameConstants.easyQuestionsSymbol||this.matrix[i][j]==GameConstants.mediumQuestionsSymbol||this.matrix[i][j]==GameConstants.hardQuestionsSymbol) return true;
+				if(this.matrix[i][j]==GameConstants.easyQuestionsSymbol||this.matrix[i][j]==GameConstants.mediumQuestionsSymbol||this.matrix[i][j]==GameConstants.hardQuestionsSymbol) return true;
 			}
 		}
 		return false;
 	}
-	
-	
+
+
 	private char matrix[][];
 }

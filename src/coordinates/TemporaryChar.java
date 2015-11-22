@@ -4,5 +4,5 @@ package coordinates;
  * Could be passed by reference.
  * */
 public final class TemporaryChar {
-public char symbol;
+	public char symbol;
 }

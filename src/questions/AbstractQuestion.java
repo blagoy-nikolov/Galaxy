@@ -2,16 +2,16 @@ package questions;
 
 public abstract class AbstractQuestion {
 
-	
-	
+
+
 	public AbstractQuestion(String question)
 	{
-	this.question=question;
+		this.question=question;
 	}
 	public final boolean haveBeenUsed()
 	{
 		return this.used;
-	
+
 	}
 	public final void reset()
 	{
@@ -25,8 +25,8 @@ public abstract class AbstractQuestion {
 	{
 		return this.question;
 	}
-	
-	
+
+
 	protected String question;
 	protected boolean used;
 }
